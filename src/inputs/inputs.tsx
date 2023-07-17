@@ -174,6 +174,8 @@ export function Inputs() {
                 <input type="number" name="RPM" value={rpm} onChange={(e) => setRPM(e.target.valueAsNumber)} placeholder="RPM"/>
             </div>
 
+            <br />
+
 
             <button onClick={calculateValues}>CALCULATE</button>
             
